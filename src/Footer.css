@@ -1,64 +1,61 @@
 footer {
     position: relative;
-    bottom: 0px;
-    width: 100%;
+    z-index: 1;
+    display: flex;
+    width: 300%;
+    padding-top: 100px;
+    padding-bottom: 0;
+    flex-wrap: wrap;
 }
-.logotipo {
-   width: 100%;
-   text-align: center;
-   font-size: 0.7em;
+
+.logotipo{
+    width: 130px;
+    height: auto;
+    max-width: none;
+    margin-right: 100px;
+    margin-left: 100px;
 }
-.logotipo img {
-   width: 20%;
-   vertical-align: middle;
+
+.icons{
+    display: flex;
+    margin-top: 20px;
+    margin-right: -3px;
+    margin-left: -3px;
+    justify-content: center;
+    align-items: center;
 }
-.redes {
-   width: 100%;
-   text-align: center;
-}
-.redes img {
-   width: 18%;
-}
-.redes ul li {
-   text-transform: uppercase;
-   list-style-type: none;
-   display: inline;
-}
-@media only screen and (min-width: 450px)
-and (max-width: 769px){
-   footer {
-       clear: both;
-       width: 100%;
+
+.social-icon-small {
+    width: 15px;
     }
-    .logotipo {
-        width: 50%;
-        float: left;
-        text-align: left;
-    }
-    .redes {
-        width: 50%;
-        float: right;
-    }
+
+
+.social-link-small {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #e1e6ee;
+    border-radius: 10px;
+    transition: border-color .2s;
 }
-@media only screen and (min-width: 769px) {
-   footer {
-       width: 100%;
-       clear: both;
-       margin-bottom: 3%;
-   }
-   .logotipo {
-       font-size: 1em;
-       width: 45%;
-       float: left;
-       text-align: center;
-    }
-    .logotipo img, .redes img {
-        width: 10%;
-    }
-    .redes {
-        width: 45%;
-        float: right;
-        margin-right: 1%;
-        text-align: center;
-    }
+
+.footer-v1-column {
+    display: flex;
+    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer-v1-link {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: color .2s;
+    color: #7a8292;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: none;
 }

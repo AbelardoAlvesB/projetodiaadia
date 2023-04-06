@@ -1,0 +1,29 @@
+nav{
+    position:relative;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 70px;
+}
+
+h1{
+    font-size: larger;
+}
+
+.navbar-brand{
+    position: absolute;
+    display: block;
+    margin-left: 100px;
+}
+
+.navbar-nav{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}

@@ -24,9 +24,7 @@ function App() {
             <Aside/>
           </div>
           <div class ="col-lg-10 content"> 
-            <Main
-            instagram = "instagram.com/xurrasco_021"
-            whatsapp = ""/>    
+            <Main desconto = "sim"/>    
           </div>
         </div>
         <div class = "row">
