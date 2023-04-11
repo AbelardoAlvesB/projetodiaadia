@@ -27,3 +27,15 @@ h1{
     align-items: center;
     flex: 1;
 }
+
+#botao{
+    background-color: #009bd9;
+    border-radius: 7px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom:solid gray 3px;
+    border-right: solid gray 3px;
+}

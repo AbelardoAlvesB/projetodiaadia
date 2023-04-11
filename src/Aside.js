@@ -7,7 +7,10 @@ function Aside() {
         <a href="#" class="list-group-item list-group-item-action">Engenharia de Software</a>
         <a href="#" class="list-group-item list-group-item-action">Sistema de Informação</a>
         <a href="#" class="list-group-item list-group-item-action">Administração</a>
-        <a class="list-group-item list-group-item-action disabled">Marketing</a>
+        <a href="#" class="list-group-item list-group-item-action">Marketing</a>
+        <a href="#" class="list-group-item list-group-item-action">Psicologia</a>
+        <a href="#" class="list-group-item list-group-item-action">Nutrição</a>
+        <a href="#" class="list-group-item list-group-item-action">Gastronomia</a>
       </div>
     );
   }

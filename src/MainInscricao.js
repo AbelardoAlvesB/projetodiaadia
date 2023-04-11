@@ -16,14 +16,16 @@ function MainInscricao(props){
     }
     return(
         <div>
-            <h6>Inscreva-se para um de nossos cursos</h6>
-            <h7>O desconto é concedido a todos de acordo com a idade.</h7>
+            <h1 class="titulo">Inscreva-se para um de nossos cursos</h1>
+            <h2 class="subtitulo">O desconto é concedido a todos de acordo com a idade.</h2>
             <br></br>
-            <buttom class="botaoidade" onClick={manipularIdade}>Aumentar Idade</buttom>
-            <br></br>
-            <h8>Idade: {contagem}</h8>
-            <br></br>
-            <h8>Mensalidade a pagar: {menslidade}</h8>
+            <div class="aumentaridade">
+                <buttom class="botaoidade" onClick={manipularIdade}>Aumentar Idade</buttom>
+                <br></br>
+                <h3 class="descricao">Idade: {contagem}</h3>
+                <br></br>
+            </div>
+            <h4 class="descricao">Mensalidade a pagar: {menslidade}</h4>
         </div>
     )
 

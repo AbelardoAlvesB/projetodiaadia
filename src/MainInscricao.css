@@ -1,9 +1,28 @@
-h6{
-    font-size: 50px;
-}
-
-h7{
+  .titulo {
     font-size: 30px;
-    color:rgb(0,155,217);
-    text-shadow: black 1px 1px;
-}
+    margin-bottom: 10px;
+  }
+  
+  .subtitulo {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .botaoidade {
+    background-color: #009bd9;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-bottom:solid gray 3px;
+    border-right: solid gray 3px;
+  }
+  
+  .descricao {
+    font-size: 20px;
+  }
